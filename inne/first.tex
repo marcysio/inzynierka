@@ -1,0 +1,223 @@
+\documentclass[a4paper,10pt]{book}
+
+\usepackage[polish]{babel}
+\usepackage{mathptmx}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{amsmath}
+\usepackage{index}
+\usepackage[T1]{fontenc}
+\usepackage{booktabs}
+
+\newcommand{\pc}{poliwęglan}
+\newcommand{\PC}{Poliwęglan}
+\newcommand{\typew}[1]{texttt{#1}}
+
+
+\begin{document}
+\title{\Large{\textbf{LaTeX Samouczek}}}
+\author{Marcin Tomkiewicz}
+\date{6 grudnia, 2020}
+
+\maketitle
+\let\cleardoublepage\clearpage
+\tableofcontents
+
+\pagenumbering{roman}
+\setcounter{page}{2}
+\fancyhf{}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+\fancyhead[LE]{\leftmark}
+\fancyhead[RO]{\nouppercase{\rightmark}}
+\fancyfoot[LE,RO]{\thepage}
+
+\chapter{Chapter Name}
+
+\section{A section}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id eleifend est. Duis condimentum nec diam eget porta. Proin felis risus, vestibulum nec dignissim sit amet, fringilla non arcu. Proin ipsum nisl, maximus vitae odio in, dictum venenatis erat. Nam in orci viverra, malesuada augue ac, tristique mi. Ut suscipit massa non odio rutrum pharetra. Pellentesque sollicitudin, ipsum vitae faucibus vulputate, elit erat euismod augue, ut congue tortor nisl in tellus. Etiam lacinia, metus ut dignissim malesuada, nunc libero laoreet elit, a facilisis nulla magna eget mi. Nulla facilisi. Duis suscipit, orci a vehicula ullamcorper, erat est dignissim quam, sed sodales odio neque nec mi. Nam non viverra felis, eu gravida nisi. Aenean aliquam eros sit amet ex laoreet ultrices. Nunc commodo fermentum erat sed scelerisque. Integer vulputate semper suscipit. Praesent egestas sapien ex, vel tristique nulla condimentum sit amet. 
+
+\begin{figure}[ht]
+
+\centering
+
+\includegraphics[width=10cm]{/home/marcysio/Obrazy/Screenshot.png}
+\caption{Podział biopolimerów}\label{Rys:podział biopolimerów}
+
+\end{figure}
+
+Sed laoreet leo mi, ac consequat tortor mollis quis. Nunc interdum sapien nisl, id porta lectus congue nec. Nunc efficitur ex eget tempus fringilla. Duis molestie metus vel dui tempus fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras viverra porta arcu. Donec imperdiet vel nisl sit amet vestibulum. Sed vel enim eu purus aliquam vehicula. 
+
+\section*{Spacing}
+\LaTeX\
+
+Po prostu randomowe 
+teksty\\
+
+Druga linia jest zakapitowana Jak     użyjemy      dużo     spacji \\
+\nolinebreak
+
+Tutaj nie ma akapitu
+
+
+\newpage
+
+\section{Smoothie}
+
+Nam non quam sit amet leo lobortis sollicitudin congue non turpis. Morbi ac purus at nulla vulputate pretium sed vitae nibh. Proin justo leo, vehicula vitae massa mollis, rhoncus blandit ligula. Aliquam vehicula, dolor nec mattis pharetra, nunc purus mattis ante, ut dignissim neque tellus nec urna. Ut ac urna sed lacus egestas eleifend. Aenean at vulputate nulla, sed mattis sapien. Nam venenatis sagittis ex. Mauris laoreet mollis leo, quis commodo metus viverra nec. Aenean ullamcorper rhoncus dolor, et mattis massa ornare non. Nam risus velit, congue vel odio ac, dignissim maximus risus. Etiam sed hendrerit magna, ac venenatis mauris. Phasellus hendrerit quis lorem eu varius. Vestibulum iaculis fermentum ornare. 
+
+\section[Smoothie]{Smoothie Recipe}
+
+\begin{itemize}
+	\item kupa
+	\item trzeba
+	\item Ziemniaki
+	\begin{itemize}
+		\item kupne
+		\item niekupne
+	\end{itemize}
+	\item siku
+\end{itemize}
+
+Nam auctor arcu purus, at hendrerit velit tincidunt id. Curabitur semper lectus sit amet maximus iaculis. Quisque vulputate sem et dui lacinia, non gravida lorem interdum. Maecenas non est efficitur, sodales eros ac, dictum orci. Morbi id odio nisl. Pellentesque rhoncus viverra sapien eu suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tortor turpis, faucibus quis est quis, porta scelerisque neque. Mauris vel fermentum enim, non porta quam. Aenean ac tortor quis sapien maximus sodales sit amet ut purus. Etiam est metus, blandit ac rhoncus vitae, ullamcorper non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+
+
+\begin{enumerate}
+	\item kupa
+	\item trzeba
+	\item Ziemniaki
+	\begin{enumerate}
+		\item kupne
+		\item niekupne
+	\end{enumerate}
+	\item siku
+	\begin{itemize}
+	\item kupa
+	\item trzeba
+	\item Ziemniaki
+	\begin{itemize}
+		\item kupne
+		\item niekupne
+	\end{itemize}
+	\item siku
+\end{itemize}
+\end{enumerate}
+\bigskip
+
+Nam non quam sit amet leo lobortis sollicitudin congue non turpis. Morbi ac purus at nulla vulputate pretium sed vitae nibh. Proin justo leo, vehicula vitae massa mollis, rhoncus blandit ligula. Aliquam vehicula, dolor nec mattis pharetra, nunc purus mattis ante, ut dignissim neque tellus nec urna. Ut ac urna sed lacus egestas eleifend. Aenean at vulputate nulla, sed mattis sapien. Nam venenatis sagittis ex. Mauris laoreet mollis leo, quis commodo metus viverra nec. Aenean ullamcorper rhoncus dolor, et mattis massa ornare non. Nam risus velit, congue vel odio ac, dignissim maximus risus. Etiam sed hendrerit magna, ac venenatis mauris. Phasellus hendrerit quis lorem eu varius. Vestibulum iaculis fermentum ornare. 
+\pagebreak
+
+\section{Twoja stara}
+
+\begin{description}
+	\item [Twoja stara] Sra do gara, a twój stary to wpierdala. Zobacz też: Największe ssaki lądowe
+	\item [Pączek] 
+	\begin{enumerate}
+		\item Słodka przekąska w kształcie kuli. Najczęściej z marmoladą. 
+		\item Najsłodszy pjesek ever
+	\end{enumerate}
+	
+\end{description}
+
+Proin tincidunt sed est non molestie. Pellentesque placerat eu nisl vel pellentesque. Phasellus ac urna consectetur tortor imperdiet mattis. Nulla facilisi. Cras bibendum facilisis tellus, vel convallis velit tempus vitae. Nulla hendrerit augue eget dignissim dignissim. Aliquam posuere velit ut orci tempor, a dignissim sem facilisis. Vestibulum lobortis porta hendrerit. Vestibulum sed malesuada elit. Mauris rhoncus eros et ipsum lobortis, tempus lacinia nibh auctor. 
+
+\begin{tabbing}
+
+Customer \= Name \hspace*{1.5cm} \= Street \hspace*{1.5cm} \= City \\
+	\> Marcin \> Siemaszki \> Kraków
+
+\end{tabbing}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id eleifend est. Duis condimentum nec diam eget porta. Proin felis risus, vestibulum nec dignissim sit amet, fringilla non arcu. Proin ipsum nisl, maximus vitae odio in, dictum venenatis erat. Nam in orci viverra, malesuada augue ac, tristique mi. Ut suscipit massa non odio rutrum pharetra. Pellentesque sollicitudin, ipsum vitae faucibus vulputate, elit erat euismod augue, ut congue tortor nisl in tellus. Etiam lacinia, metus ut dignissim malesuada, nunc libero laoreet elit, a facilisis nulla magna eget mi. Nulla facilisi. Duis suscipit, orci a vehicula ullamcorper, erat est dignissim quam, sed sodales odio neque nec mi. Nam non viverra felis, eu gravida nisi. Aenean aliquam eros sit amet ex laoreet ultrices. Nunc commodo fermentum erat sed scelerisque. Integer vulputate semper suscipit. Praesent egestas sapien ex, vel tristique nulla condimentum sit amet. 
+
+\begin{table}[h!]
+
+\caption{Ways to emphasize text}\label{sec:typheemph}
+\begin{tabular}{l|c|r}
+\textbf{Name} & \textbf{Command} & \textbf{Sample Text} \\
+\hline
+emphasize &\verb|\emph| & \emph{abcdefgh}
+
+\end{tabular}
+
+\end{table}
+
+
+
+Sed laoreet leo mi, ac consequat tortor mollis quis. Nunc interdum sapien nisl, id porta lectus congue nec. Nunc efficitur ex eget tempus fringilla. Duis molestie metus vel dui tempus fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras viverra porta arcu. Donec imperdiet vel nisl sit amet vestibulum. Sed vel enim eu purus aliquam vehicula.
+
+Nam auctor arcu purus, at hendrerit velit tincidunt id. Curabitur semper lectus sit amet maximus iaculis. Quisque vulputate sem et dui lacinia, non gravida lorem interdum. Maecenas non est efficitur, sodales eros ac, dictum orci. Morbi id odio nisl. Pellentesque rhoncus viverra sapien eu suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tortor turpis, faucibus quis est quis, porta scelerisque neque. Mauris vel fermentum enim, non porta quam. Aenean ac tortor quis sapien maximus sodales sit amet ut purus. Etiam est metus, blandit ac rhoncus vitae, ullamcorper non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. \\
+
+\section[Type]{\textsf{Type Emphasis \& Sizing}}
+
+\itshape italic \slshape slanted \scshape small caps \upshape upright \normalfont back to normal\\
+
+\begin{LARGE}
+Chcę użyć dużej czcionki.
+\end{LARGE}
+
+\normalsize{Powrót do normalności}
+
+\section{\textsf{Font Families}}
+
+We can {\sffamily temporarily change} font
+
+\begin{quote}
+Po europie krąży widmo - widmo komunizmu."
+- Karol Marks
+\end{quote}
+
+\section{Wzory matematyczne}
+
+\begin{flalign*}
+	& ax^2 + bx + c = 0
+\end{flalign*}
+
+This \( ax^2 + bx + c = 0\) is the quadratic exuation \\
+
+$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$ \\
+
+Litery greckie $\alpha \gamma $ \\
+
+Script leters $\mathcal{A} $
+
+Subscript $t_0$ \\
+Superscript $x^2$ \\
+
+\pc\ lub \PC\ \\
+
+Styl to \typew{Kupakupakupa} ? \\
+
+{\centering
+Wejdź do środka\\
+ok\\[12pt]
+}
+
+\quad\parbox{4cm}{Ksandjbas kjdbouidh qwoiedhlsnkd ujwdhoqwihdoqwin owqiuh dqowiddnwq.}
+\quad\parbox{2cm}{Ksandj baskjdb\-ouidh\-qwoiedhlsnkd ujwdhoqwihdoqwin owqiuhdqowiddnwq.}
+
+\begin{minipage}{5cm}
+
+Sed laoreet leo mi, ac consequat tortor mollis quis. Nunc interdum sapien nisl, id porta lectus congue nec. Nunc efficitur ex eget tempus fringilla. Duis molestie metus vel dui tempus fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras viverra porta arcu. Donec imperdiet vel nisl sit amet vestibulum. Sed vel enim eu purus aliquam vehicula. \\
+
+\end{minipage}
+
+\section{Odnośniki}
+
+Sed laoreet leo mi, ac consequat tortor mollis quis. Nunc interdum sapien nisl, id porta lectus congue nec. Nunc efficitur ex eget tempus fringilla. Duis molestie metus vel dui tempus fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras viverra porta arcu. Donec imperdiet vel nisl sit amet vestibulum. Sed vel enim eu purus aliquam vehicula. 
+\footnote{author unknown} \\[5pt]
+
+To jest odnośnik do tabeli~\ref{sec:typheemph} na stronie~\pageref{sec:typheemph}
+
+Jak się uczę moich ABC \cite{ABCDE}.
+
+
+\begin{thebibliography}{books}
+	\bibitem{ABCDE} Kurczak \emph{Tak było}
+\end{thebibliography}
+
+Tu jest reszta komend: http://www.newthinktank.com/2019/01/latex-tutorial/
+
+\end{document}
