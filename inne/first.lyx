@@ -1,0 +1,1591 @@
+#LyX file created by tex2lyx 2.3
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin /home/marcysio/inzynierka/inne/
+\textclass book
+\begin_preamble
+
+
+\usepackage[polish]{babel}
+\usepackage{fancyhdr}
+\usepackage{index}
+\usepackage{booktabs}
+
+
+\newcommand{\pc}{poliwÄglan}
+\newcommand{\PC}{PoliwÄglan}
+\newcommand{\typew}[1]{texttt{#1}}
+
+
+
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language polish
+\language_package default
+\inputencoding auto
+\fontencoding T1
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "mathptmx" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
+\use_package esint 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style polish
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\lang polish
+
+\size larger
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\series bold
+LaTeX Samouczek
+\series default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+
+\lang polish
+Marcin Tomkiewicz
+\end_layout
+
+\begin_layout Date
+
+\lang polish
+6 grudnia, 2020
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+let
+\backslash
+cleardoublepage
+\backslash
+clearpage
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+setcounter{page}{2}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fancyhf
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\renewcommand{\headrulewidth}{2pt}
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\renewcommand{\footrulewidth}{1pt}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fancyhead[LE]{
+\backslash
+leftmark}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fancyhead[RO]{
+\backslash
+nouppercase{
+\backslash
+rightmark}}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+fancyfoot
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+[
+\end_layout
+
+\end_inset
+
+LE,RO
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+]
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+thepage
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+
+\lang polish
+Chapter Name
+\end_layout
+
+\begin_layout Section
+
+\lang polish
+A section
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id eleifend est. Duis condimentum nec diam eget porta. Proin felis risus, vestibulum nec dignissim sit amet, fringilla non arcu. Proin ipsum nisl, maximus vitae odio in, dictum venenatis erat. Nam in orci viverra, malesuada augue ac, tristique mi. Ut suscipit massa non odio rutrum pharetra. Pellentesque sollicitudin, ipsum vitae faucibus vulputate, elit erat euismod augue, ut congue tortor nisl in tellus. Etiam lacinia, metus ut dignissim malesuada, nunc libero laoreet elit, a facilisis nulla magna eget mi. Nulla facilisi. Duis suscipit, orci a vehicula ullamcorper, erat est dignissim quam, sed sodales odio neque nec mi. Nam non viverra felis, eu gravida nisi. Aenean aliquam eros sit amet ex laoreet ultrices. Nunc commodo fermentum erat sed scelerisque. Integer vulputate semper suscipit. Praesent egestas sapien ex, vel tristique nulla condimentum sit amet.
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset Float figure
+placement ht
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset Graphics 
+	filename /home/marcysio/Obrazy/Screenshot.png
+	width 10cm
+
+\end_inset
+
+ 
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+PodziaÅ biopolimerÃ³w
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "Rys:podziaÅ biopolimerÃ³w"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Sed laoreet leo mi, ac consequat tortor mollis quis. Nunc interdum sapien nisl, id porta lectus congue nec. Nunc efficitur ex eget tempus fringilla. Duis molestie metus vel dui tempus fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras viverra porta arcu. Donec imperdiet vel nisl sit amet vestibulum. Sed vel enim eu purus aliquam vehicula.
+\end_layout
+
+\begin_layout Section*
+
+\lang polish
+Spacing
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+\SpecialChar LaTeX
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ Po prostu randomowe teksty
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Druga linia jest zakapitowana Jak uÅ¼yjemy duÅ¼o spacji 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+nolinebreak
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Tutaj nie ma akapitu
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang polish
+Smoothie
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Nam non quam sit amet leo lobortis sollicitudin congue non turpis. Morbi ac purus at nulla vulputate pretium sed vitae nibh. Proin justo leo, vehicula vitae massa mollis, rhoncus blandit ligula. Aliquam vehicula, dolor nec mattis pharetra, nunc purus mattis ante, ut dignissim neque tellus nec urna. Ut ac urna sed lacus egestas eleifend. Aenean at vulputate nulla, sed mattis sapien. Nam venenatis sagittis ex. Mauris laoreet mollis leo, quis commodo metus viverra nec. Aenean ullamcorper rhoncus dolor, et mattis massa ornare non. Nam risus velit, congue vel odio ac, dignissim maximus risus. Etiam sed hendrerit magna, ac venenatis mauris. Phasellus hendrerit quis lorem eu varius. Vestibulum iaculis fermentum ornare.
+\end_layout
+
+\begin_layout Section
+
+\lang polish
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+
+\lang polish
+Smoothie
+\end_layout
+
+\end_inset
+
+Smoothie Recipe
+\end_layout
+
+\begin_layout Itemize
+
+\lang polish
+kupa 
+\end_layout
+
+\begin_layout Itemize
+
+\lang polish
+trzeba 
+\end_layout
+
+\begin_layout Itemize
+
+\lang polish
+Ziemniaki 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang polish
+kupne 
+\end_layout
+
+\begin_layout Itemize
+
+\lang polish
+niekupne 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang polish
+siku 
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Nam auctor arcu purus, at hendrerit velit tincidunt id. Curabitur semper lectus sit amet maximus iaculis. Quisque vulputate sem et dui lacinia, non gravida lorem interdum. Maecenas non est efficitur, sodales eros ac, dictum orci. Morbi id odio nisl. Pellentesque rhoncus viverra sapien eu suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tortor turpis, faucibus quis est quis, porta scelerisque neque. Mauris vel fermentum enim, non porta quam. Aenean ac tortor quis sapien maximus sodales sit amet ut purus. Etiam est metus, blandit ac rhoncus vitae, ullamcorper non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+\end_layout
+
+\begin_layout Enumerate
+
+\lang polish
+kupa 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang polish
+trzeba 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang polish
+Ziemniaki 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang polish
+kupne 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang polish
+niekupne 
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\lang polish
+siku 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang polish
+kupa 
+\end_layout
+
+\begin_layout Itemize
+
+\lang polish
+trzeba 
+\end_layout
+
+\begin_layout Itemize
+
+\lang polish
+Ziemniaki 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\lang polish
+kupne 
+\end_layout
+
+\begin_layout Itemize
+
+\lang polish
+niekupne 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\lang polish
+siku 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Nam non quam sit amet leo lobortis sollicitudin congue non turpis. Morbi ac purus at nulla vulputate pretium sed vitae nibh. Proin justo leo, vehicula vitae massa mollis, rhoncus blandit ligula. Aliquam vehicula, dolor nec mattis pharetra, nunc purus mattis ante, ut dignissim neque tellus nec urna. Ut ac urna sed lacus egestas eleifend. Aenean at vulputate nulla, sed mattis sapien. Nam venenatis sagittis ex. Mauris laoreet mollis leo, quis commodo metus viverra nec. Aenean ullamcorper rhoncus dolor, et mattis massa ornare non. Nam risus velit, congue vel odio ac, dignissim maximus risus. Etiam sed hendrerit magna, ac venenatis mauris. Phasellus hendrerit quis lorem eu varius. Vestibulum iaculis fermentum ornare. 
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang polish
+Twoja stara
+\end_layout
+
+\begin_layout Description
+
+\lang polish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+Twoja stara
+\end_layout
+
+\end_inset
+
+ Sra do gara, a twÃ³j stary to wpierdala. Zobacz teÅ¼: NajwiÄksze ssaki lÄdowe 
+\end_layout
+
+\begin_layout Description
+
+\lang polish
+PÄczek 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\lang polish
+SÅodka przekÄska w ksztaÅcie kuli. NajczÄÅciej z marmoladÄ. 
+\end_layout
+
+\begin_layout Enumerate
+
+\lang polish
+NajsÅodszy pjesek ever 
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+
+\lang polish
+Proin tincidunt sed est non molestie. Pellentesque placerat eu nisl vel pellentesque. Phasellus ac urna consectetur tortor imperdiet mattis. Nulla facilisi. Cras bibendum facilisis tellus, vel convallis velit tempus vitae. Nulla hendrerit augue eget dignissim dignissim. Aliquam posuere velit ut orci tempor, a dignissim sem facilisis. Vestibulum lobortis porta hendrerit. Vestibulum sed malesuada elit. Mauris rhoncus eros et ipsum lobortis, tempus lacinia nibh auctor.
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{tabbing}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+Customer 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+=
+\end_layout
+
+\end_inset
+
+ Name 
+\begin_inset space \hspace*{}
+\length 1.5cm
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+=
+\end_layout
+
+\end_inset
+
+ Street 
+\begin_inset space \hspace*{}
+\length 1.5cm
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+=
+\end_layout
+
+\end_inset
+
+ City 
+\begin_inset Newline newline
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+>
+\end_layout
+
+\end_inset
+
+ Marcin 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+>
+\end_layout
+
+\end_inset
+
+ Siemaszki 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+>
+\end_layout
+
+\end_inset
+
+ KrakÃ³w
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{tabbing}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id eleifend est. Duis condimentum nec diam eget porta. Proin felis risus, vestibulum nec dignissim sit amet, fringilla non arcu. Proin ipsum nisl, maximus vitae odio in, dictum venenatis erat. Nam in orci viverra, malesuada augue ac, tristique mi. Ut suscipit massa non odio rutrum pharetra. Pellentesque sollicitudin, ipsum vitae faucibus vulputate, elit erat euismod augue, ut congue tortor nisl in tellus. Etiam lacinia, metus ut dignissim malesuada, nunc libero laoreet elit, a facilisis nulla magna eget mi. Nulla facilisi. Duis suscipit, orci a vehicula ullamcorper, erat est dignissim quam, sed sodales odio neque nec mi. Nam non viverra felis, eu gravida nisi. Aenean aliquam eros sit amet ex laoreet ultrices. Nunc commodo fermentum erat sed scelerisque. Integer vulputate semper suscipit. Praesent egestas sapien ex, vel tristique nulla condimentum sit amet.
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset Float table
+placement h!
+wide false
+sideways false
+status open
+
+
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Ways to emphasize text
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:typheemph"
+
+\end_inset
+
+ 
+\begin_inset Tabular 
+<lyxtabular version="3" rows="2" columns="3">
+<features rotate="0" tabularvalignment="middle" tabularwidth="0pt">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="right" valignment="top">
+<row>
+<cell alignment="left" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang polish
+
+\series bold
+Name
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang polish
+
+\series bold
+Command
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang polish
+
+\series bold
+Sample Text
+\series default
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang polish
+emphasize 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang polish
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+verb|
+\backslash
+emph|
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="right" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Standard
+
+\lang polish
+
+\emph on
+abcdefgh
+\emph default
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Sed laoreet leo mi, ac consequat tortor mollis quis. Nunc interdum sapien nisl, id porta lectus congue nec. Nunc efficitur ex eget tempus fringilla. Duis molestie metus vel dui tempus fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras viverra porta arcu. Donec imperdiet vel nisl sit amet vestibulum. Sed vel enim eu purus aliquam vehicula.
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+Nam auctor arcu purus, at hendrerit velit tincidunt id. Curabitur semper lectus sit amet maximus iaculis. Quisque vulputate sem et dui lacinia, non gravida lorem interdum. Maecenas non est efficitur, sodales eros ac, dictum orci. Morbi id odio nisl. Pellentesque rhoncus viverra sapien eu suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur tortor turpis, faucibus quis est quis, porta scelerisque neque. Mauris vel fermentum enim, non porta quam. Aenean ac tortor quis sapien maximus sodales sit amet ut purus. Etiam est metus, blandit ac rhoncus vitae, ullamcorper non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\lang polish
+
+\begin_inset Argument 1
+status collapsed
+
+
+\begin_layout Standard
+
+\lang polish
+Type
+\end_layout
+
+\end_inset
+
+
+\family sans
+Type Emphasis & Sizing
+\family default
+
+\end_layout
+
+\begin_layout Standard
+
+\lang polish
+
+\shape italic
+italic 
+\shape slanted
+slanted 
+\shape smallcaps
+small caps 
+\shape up
+upright 
+\family default
+
+\series default
+
+\shape default
+back to normal
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+begin{LARGE}
+\end_layout
+
+\end_inset
+
+ ChcÄ uÅ¼yÄ duÅ¼ej czcionki. 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+end{LARGE}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+PowrÃ³t do normalnoÅci
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+
+\family sans
+Font Families
+\family default
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+We can 
+\family sans
+temporarily change
+\family default
+ font
+\end_layout
+
+\begin_layout Quote
+
+\size normal
+Po europie krÄÅ¼y widmo - widmo komunizmu.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+"
+\end_layout
+
+\end_inset
+
+ - Karol Marks 
+\end_layout
+
+\begin_layout Section
+Wzory matematyczne
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset Formula \begin{flalign*}
+	& ax^2 + bx + c = 0
+\end{flalign*}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+This 
+\begin_inset Formula \( ax^2 + bx + c = 0\)
+\end_inset
+
+ is the quadratic exuation 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset Formula $x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Litery greckie 
+\begin_inset Formula $\alpha \gamma $
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Script leters 
+\begin_inset Formula $\mathcal{A} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Subscript 
+\begin_inset Formula $t_0$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+ Superscript 
+\begin_inset Formula $x^2$
+\end_inset
+
+ 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+pc
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \space{}
+
+\end_inset
+
+lub 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+PC
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \space{}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Styl to 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+typew{
+\end_layout
+
+\end_inset
+
+Kupakupakupa
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+ ? 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+{
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+centering
+\end_layout
+
+\end_inset
+
+ WejdÅº do Årodka
+\begin_inset Newline newline
+\end_inset
+
+ ok
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[12pt]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset space \quad{}
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 1
+use_makebox 0
+width "4cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+
+\begin_layout Plain Layout
+Ksandjbas kjdbouidh qwoiedhlsnkd ujwdhoqwihdoqwin owqiuh dqowiddnwq.
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset space \quad{}
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 1
+use_makebox 0
+width "2cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+
+\begin_layout Plain Layout
+Ksandj baskjdb\SpecialChar softhyphen
+ouidh\SpecialChar softhyphen
+qwoiedhlsnkd ujwdhoqwihdoqwin owqiuhdqowiddnwq.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "5cm"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+
+\begin_layout Plain Layout
+Sed laoreet leo mi, ac consequat tortor mollis quis. Nunc interdum sapien nisl, id porta lectus congue nec. Nunc efficitur ex eget tempus fringilla. Duis molestie metus vel dui tempus fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras viverra porta arcu. Donec imperdiet vel nisl sit amet vestibulum. Sed vel enim eu purus aliquam vehicula. 
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+OdnoÅniki
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Sed laoreet leo mi, ac consequat tortor mollis quis. Nunc interdum sapien nisl, id porta lectus congue nec. Nunc efficitur ex eget tempus fringilla. Duis molestie metus vel dui tempus fringilla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras viverra porta arcu. Donec imperdiet vel nisl sit amet vestibulum. Sed vel enim eu purus aliquam vehicula. 
+\begin_inset Foot
+status collapsed
+
+
+\begin_layout Standard
+
+\size normal
+author unknown
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+\backslash
+
+\backslash
+[5pt]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+To jest odnoÅnik do tabeli
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:typheemph"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ na stronie
+\begin_inset space ~
+
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand pageref
+reference "sec:typheemph"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Jak siÄ uczÄ moich ABC 
+\begin_inset CommandInset citation
+LatexCommand cite
+after ""
+key "ABCDE"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Bibliography
+
+\size normal
+
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+label ""
+key "ABCDE"
+literal "false"
+
+\end_inset
+
+ Kurczak 
+\emph on
+Tak byÅo
+\emph default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\size normal
+Tu jest reszta komend: http://www.newthinktank.com/2019/01/latex-tutorial/
+\end_layout
+
+\end_body
+\end_document
