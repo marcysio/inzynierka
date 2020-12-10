@@ -10,26 +10,21 @@ import numpy as np
 from matplotlib import pyplot as plt
 import pandas as pd
 
-f = pd.read_csv('~/inzynierka/dane/wytrz_23_11/2Pc_rozciaganie1.TRA', delimiter=';', skipinitialspace=(True), decimal=',')
+f = pd.read_csv('~/inzynierka/dane/wytrz_23_11/1PC_rozrywanie1.TRA', delimiter=';', skipinitialspace=(True), decimal=',')
 strain1 = f['Strain']
 force1 = f['Standard force']
 
-g = pd.read_csv('~/inzynierka/dane/wytrz_23_11/2Pc_rozciaganie2.TRA', delimiter=';', skipinitialspace=(True), decimal=',')
+g = pd.read_csv('~/inzynierka/dane/wytrz_23_11/1PC_rozrywanie2.TRA', delimiter=';', skipinitialspace=(True), decimal=',')
 
 strain2 = g['Strain']
 force2 = g['Standard force']
-
-h = pd.read_csv('~/inzynierka/dane/wytrz_23_11/2Pc_rozciaganie3.TRA', delimiter=';', skipinitialspace=(True), decimal=',')
-
-strain3 = h['Strain']
-force3 = h['Standard force']
 
 n = 0
 s1 = 0
 stra1 = []
 forc1 = []
 for s in strain1:
-    if s1 < s and s < 4:
+    if s1 < s:
         stra1.append(s)
         forc1.append(force1[n])
         s1 = s
@@ -40,25 +35,11 @@ s1 = 0
 stra2 = []
 forc2 = []
 for s in strain2:
-    if s1 < s and s < 4:
-        p = s + 1
+    if s1 < s:
         stra2.append(s)
         forc2.append(force2[n])
         s1 = s
     n += 1
-
-n = 0
-s1 = 0
-stra3 = []
-forc3 = []
-for s in strain3:
-    if s1 < s and s < 4:
-        p = s + 2
-        stra3.append(s)
-        forc3.append(force3[n])
-        s1 = s
-    n += 1
-
 
 
 ###
@@ -72,14 +53,9 @@ for s in strain3:
 #plot line
 plt.plot(stra1,forc1, color='b',label='1 próba')
 plt.plot(stra2,forc2, color='r',label='2 próba')
-plt.plot(stra3,forc3, color='g',label='3 próba')
 
 #change label of xaxis
 #plt.xticks(ticks=,labels=)
-
-#axis limits
-plt.xlim(0,)
-plt.ylim(0,)
 
 #plot labels
 plt.xlabel('Wydłużenie [%]')
@@ -96,7 +72,7 @@ plt.legend()
 plt.tight_layout()
 
 #save plot to file
-#plt.savefig('2PC_rozc_4%.pdf')
+plt.savefig('1PC_rozr.pdf')
 
 #print plot
 plt.show()
